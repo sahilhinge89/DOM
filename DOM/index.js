@@ -30,3 +30,7 @@ function fullName(){
     return `${person.fName} ${person.lName}`
 }
 console.log(fullName())
+
+document.addEventListener('click',function(){
+    console.log('i ahve the document')
+});
